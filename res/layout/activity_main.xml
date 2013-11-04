@@ -7,9 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".CalenderViewExampleActivity">
+    tools:context=".CalenderViewExampleActivity" >
 
-    <TextView
+     <TextView
         android:id="@+id/intro_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,41 +32,23 @@
         android:layout_marginBottom="30dp"
         android:text="@string/time_picker" />
 
-	<Button
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_marginLeft="85dp"
-	    android:onClick="pickTime"
-	    android:text="@string/button_pickTime" />
-	
-	<CalendarView
-        android:id="@+id/calendar"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:onClick="pickTime"
+        android:text="@string/button_pickTime" />
+    
+    <EditText 
+        android:id="@+id/edit_message"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-	
-	    <Button
-        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_label" />
-
-    <TextView
-        android:id="@+id/time_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/time_txt"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/txtTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TimePicker
-        android:id="@+id/timePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
 
 </LinearLayout>

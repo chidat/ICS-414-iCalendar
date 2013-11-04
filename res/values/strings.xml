@@ -9,10 +9,12 @@
     <string name="button_viewCalendar">View Calendar</string>
     <string name="time_picker">Time Picker</string>
     <string name="button_pickTime">Pick a Time</string>
-    
-    <string name="button_label">Change Time</string>
     <string name="time_txt">Current Time (H:M): </string>
     <string name="menu_settings">Settings</string>
-    
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_calendar_view">My Calendar</string>
+    <string name="edit_message">Event name</string>
+    <string name="button_send">Add Event</string>
+    <string name="title_activity_time_picker">Pick a Time</string>
 
 </resources>

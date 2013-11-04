@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/calplusicon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -21,6 +21,30 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.hawaii.ics414.icalendar.CalendarViewActivity"
+            android:label="@string/title_activity_calendar_view"
+            android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.hawaii.ics414.icalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="edu.hawaii.ics414.icalendar.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.hawaii.ics414.icalendar.MainActivity" />
+        </activity>
+        <activity
+            android:name="edu.hawaii.ics414.icalendar.TimePickerActivity"
+            android:label="@string/title_activity_time_picker"
+            android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.hawaii.ics414.icalendar.MainActivity" />
         </activity>
     </application>
 

@@ -60,8 +60,6 @@ public class TimePickerActivity extends Activity {
 
             public void onClick(View v) {
 
-                showDialog(TIME_DIALOG_ID);
-
             }
 
         });

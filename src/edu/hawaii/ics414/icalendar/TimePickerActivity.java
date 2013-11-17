@@ -94,7 +94,7 @@ public class TimePickerActivity extends Activity {
 		}
 	};
 
-	private String convertTime(int hour, int minute) {
+	public String convertTime(int hour, int minute) {
 		String convertedTime;
 
 		String ampm = "";

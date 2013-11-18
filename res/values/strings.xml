@@ -19,5 +19,8 @@
     <string name="change_time_button_label">Change Time</string>
     <string name="save">Save</string>
     <string name="load">Load</string>
+    <string name="title_activity_save_load">Save or Load An Event</string>
+    <string name="button_save">Save</string>
+    <string name="button_save_load">Save/Load</string>
 
 </resources>

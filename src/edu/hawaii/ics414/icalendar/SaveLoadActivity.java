@@ -32,12 +32,12 @@ public class SaveLoadActivity extends Activity{
 
 	  private void onLeftSwipe() {
 		  //change this to something else more useful later
-		  setContentView(R.layout.activity_main);
+		  
 	  }
 
 	  private void onRightSwipe() {
 		//change this to something else more useful later
-		  setContentView(R.layout.activity_main);
+		  
 	  }
 
 	  // Private class for gestures

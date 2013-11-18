@@ -15,6 +15,8 @@ public class MainActivity extends Activity {
 	
     /*start swipe code*/
 	private GestureDetector gestureDetector;
+	
+	
 	  
 	  @SuppressWarnings("deprecation")
 	@Override
@@ -37,12 +39,12 @@ public class MainActivity extends Activity {
 
 	  private void onLeftSwipe() {
 		  //change this to something else more useful later
-		  setContentView(R.layout.activity_save_load);
+		  
 	  }
 
 	  private void onRightSwipe() {
 		//change this to something else more useful later
-		  setContentView(R.layout.activity_save_load);
+		  
 	  }
 
 	  // Private class for gestures
@@ -109,5 +111,12 @@ public class MainActivity extends Activity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+    
+    public void saveLoad(View view) {
+        Intent intent = new Intent(this, SaveLoadActivity.class);
+        startActivity(intent);
+    }
+    
+    
 
 }

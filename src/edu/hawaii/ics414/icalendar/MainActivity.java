@@ -36,10 +36,12 @@ public class MainActivity extends Activity {
 	  }
 
 	  private void onLeftSwipe() {
+		  //change this to something else more useful later
 		  setContentView(R.layout.activity_calendar_view);
 	  }
 
 	  private void onRightSwipe() {
+		//change this to something else more useful later
 		  setContentView(R.layout.activity_time_picker);
 	  }
 

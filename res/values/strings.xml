@@ -17,5 +17,7 @@
     <string name="button_send">Add Event</string>
     <string name="title_activity_time_picker">Pick a Time</string>
     <string name="change_time_button_label">Change Time</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
 
 </resources>

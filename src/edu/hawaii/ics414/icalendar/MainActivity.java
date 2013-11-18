@@ -36,20 +36,22 @@ public class MainActivity extends Activity {
 	  }
 
 	  private void onLeftSwipe() {
-		  setContentView(R.layout.activity_calendar_view);
+		  //change this to something else more useful later
+		  setContentView(R.layout.activity_save_load);
 	  }
 
 	  private void onRightSwipe() {
-		  setContentView(R.layout.activity_time_picker);
+		//change this to something else more useful later
+		  setContentView(R.layout.activity_save_load);
 	  }
 
 	  // Private class for gestures
 	  private class SwipeGestureDetector 
 	          extends SimpleOnGestureListener {
 	    // Properties to control the swipe
-	    private static final int SWIPE_MIN_DISTANCE = 120;
+	    private static final int SWIPE_MIN_DISTANCE = 70;
 	    private static final int SWIPE_MAX_OFF_PATH = 200;
-	    private static final int SWIPE_THRESHOLD_VELOCITY = 200;
+	    private static final int SWIPE_THRESHOLD_VELOCITY = 100;
 
 	    @Override
 	    public boolean onFling(MotionEvent e1, MotionEvent e2,

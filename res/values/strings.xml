@@ -5,7 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title">iCalendar</string>
-    <string name="intro">Welcome to your iCalendar! Tap the button to view your calendar.</string>
+    <string name="intro">Welcome to your iCalendar! Tap the button to view your calendar.  Swipe toward the right to save an event!  Swipe toward the left to load an event!</string>
     <string name="button_viewCalendar">View Calendar</string>
     <string name="time_picker">Time Picker</string>
     <string name="button_pickTime">Pick a Time</string>

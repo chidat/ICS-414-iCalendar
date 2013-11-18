@@ -47,7 +47,14 @@
                 android:value="edu.hawaii.ics414.icalendar.MainActivity" />
         </activity>
         <activity
-        	android:name="edu.hawaii.ics414.icalendar.SaveLoadActivity"
+        	android:name="edu.hawaii.ics414.icalendar.SaveActivity"
+        	android:label="@string/title_activity_save_load"
+        	android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity">
+        	<meta-data android:name="android.support.PARENT_ACTIVITY"
+        		android:value="edu.hawaii.ics414.icalendar.MainActivity" />
+        </activity>
+        <activity
+        	android:name="edu.hawaii.ics414.icalendar.LoadActivity"
         	android:label="@string/title_activity_save_load"
         	android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity">
         	<meta-data android:name="android.support.PARENT_ACTIVITY"

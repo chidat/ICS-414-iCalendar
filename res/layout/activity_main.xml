@@ -51,11 +51,4 @@
         android:text="@string/button_send"
         android:onClick="sendMessage" />
 
-    <Button
-        android:id="@+id/save_load_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_save_load" 
-    	android:onClick="saveLoad"  />
-
 </LinearLayout>

@@ -39,12 +39,14 @@ public class MainActivity extends Activity {
 
 	  private void onLeftSwipe() {
 		  //change this to something else more useful later
-		  
+		  Intent intent = new Intent(this, LoadActivity.class);
+	      startActivity(intent);
 	  }
 
 	  private void onRightSwipe() {
 		//change this to something else more useful later
-		  
+		  Intent intent = new Intent(this, SaveActivity.class);
+	      startActivity(intent);
 	  }
 
 	  // Private class for gestures
@@ -111,12 +113,12 @@ public class MainActivity extends Activity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
-    
+    /*
     public void saveLoad(View view) {
         Intent intent = new Intent(this, SaveLoadActivity.class);
         startActivity(intent);
     }
-    
+    */
     
 
 }

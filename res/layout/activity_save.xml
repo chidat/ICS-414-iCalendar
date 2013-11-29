@@ -5,13 +5,7 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/loadButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/load" />
-
-    <Button
-        android:id="@+id/saveButton"
+        android:id="@+id/save_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/save" />

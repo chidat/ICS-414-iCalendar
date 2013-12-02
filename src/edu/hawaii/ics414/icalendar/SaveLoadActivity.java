@@ -15,7 +15,7 @@ public class SaveLoadActivity extends Activity{
 	@Override
 	  public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-	    setContentView(R.layout.activity_save_load);
+	    /*setContentView(R.layout.activity_save_load);*/
 
 	    gestureDetector = new GestureDetector(
 	                      new SwipeGestureDetector());

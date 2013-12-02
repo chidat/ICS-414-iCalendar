@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="14"
         android:targetSdkVersion="18" />
 
     <application
@@ -47,18 +47,16 @@
                 android:value="edu.hawaii.ics414.icalendar.MainActivity" />
         </activity>
         <activity
-        	android:name="edu.hawaii.ics414.icalendar.SaveActivity"
-        	android:label="@string/title_activity_save_load"
-        	android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity">
-        	<meta-data android:name="android.support.PARENT_ACTIVITY"
-        		android:value="edu.hawaii.ics414.icalendar.MainActivity" />
+            android:name="edu.hawaii.ics414.icalendar.SaveActivity"
+            android:label="@string/title_activity_save"
+            android:parentActivityName="edu.hawaii.ics414.icalendar.SaveActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.hawaii.ics414.icalendar.SaveActivity" />
         </activity>
         <activity
-        	android:name="edu.hawaii.ics414.icalendar.LoadActivity"
-        	android:label="@string/title_activity_save_load"
-        	android:parentActivityName="edu.hawaii.ics414.icalendar.MainActivity">
-        	<meta-data android:name="android.support.PARENT_ACTIVITY"
-        		android:value="edu.hawaii.ics414.icalendar.MainActivity" />
+            android:name="edu.hawaii.ics414.icalendar.CreateEventActivity"
+            android:label="@string/title_activity_create_event" >
         </activity>
     </application>
 

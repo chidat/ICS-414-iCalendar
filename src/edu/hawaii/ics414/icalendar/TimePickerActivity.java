@@ -14,7 +14,6 @@ import android.widget.TimePicker;
 public class TimePickerActivity extends Activity {
 
 	private TextView textViewTime;
-	private TimePicker timePicker;
 	private Button button;
 	private int hour;
 	private int minute;
@@ -35,7 +34,6 @@ public class TimePickerActivity extends Activity {
 	public void setCurrentTimeOnView() {
 
 		textViewTime = (TextView) findViewById(R.id.txtTime);
-		timePicker = (TimePicker) findViewById(R.id.timePicker);
 
 		final Calendar c = Calendar.getInstance();
 		hour = c.get(Calendar.HOUR_OF_DAY);
@@ -44,9 +42,6 @@ public class TimePickerActivity extends Activity {
 		// set current time into textview
 		textViewTime.setText(convertTime(hour, minute));
 
-		// set current time into timepicker
-		timePicker.setCurrentHour(hour);
-		timePicker.setCurrentMinute(minute);
 
 	}
 
@@ -81,10 +76,6 @@ public class TimePickerActivity extends Activity {
 		public void onTimeSet(TimePicker view, int selectedHour, int selectedMinute) {
 			hour = selectedHour;
 			minute = selectedMinute;
-
-			// set current time into timepicker
-			timePicker.setCurrentHour(hour);
-			timePicker.setCurrentMinute(minute);
 
 			// Append in a StringBuilder
 			String aTime = convertTime(hour, minute);

@@ -24,7 +24,7 @@
         android:layout_marginLeft="70dp"
         android:onClick="viewCalendar"
         android:text="@string/button_viewCalendar" />
-
+<!-- 
     <TextView
         android:id="@+id/time_picker"
         android:layout_width="wrap_content"
@@ -37,25 +37,34 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="85dp"
         android:onClick="pickTime"
-        android:text="@string/button_pickTime" />
+        android:text="@string/button_pickTime" /> -->
     
-    <EditText 
+<!--     <EditText 
         android:id="@+id/edit_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
+        android:hint="@string/edit_message" /> -->
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        android:onClick="sendMessage" />
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="85dp"
+        android:onClick="createEvent"
+        android:text="@string/button_add_event" />
 
-    <Button
-        android:id="@+id/save_load_button"
+<!--     <Button
+        android:id="@+id/save_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_save_load" 
-    	android:onClick="saveLoad"  />
+        android:text="@string/button_save" 
+    	android:onClick="save" /> -->
+    
+<!--     <Button
+        android:id="@+id/test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_test" 
+    	android:onClick="test" /> -->
 
 </LinearLayout>

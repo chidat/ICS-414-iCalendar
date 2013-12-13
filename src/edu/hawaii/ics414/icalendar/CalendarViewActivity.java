@@ -21,13 +21,6 @@ public class CalendarViewActivity extends Activity {
         calendar = (CalendarView)findViewById(R.id.calendar);
         
         setContentView(calendarView);
-        
-/*        calendar.setOnDateChangeListener(new OnDateChangeListener(){
-         
-            public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
-                Toast.makeText(getBaseContext(),"Selected Date is:\n" + month + "/" + dayOfMonth + "/" + year, Toast.LENGTH_LONG).show();
-            };
-        });*/
     };
 
     @Override

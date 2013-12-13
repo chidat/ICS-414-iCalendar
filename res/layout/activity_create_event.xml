@@ -8,12 +8,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/lblTextViewOne"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world" />
-
         <EditText
             android:id="@+id/editText1"
             android:layout_width="fill_parent"
@@ -23,12 +17,6 @@
             android:inputType="text" >
         </EditText>
         
-        <TextView
-            android:id="@+id/text_view_date"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="" />
-
         <DatePicker
             android:id="@+id/datePicker1"
             android:layout_width="wrap_content"

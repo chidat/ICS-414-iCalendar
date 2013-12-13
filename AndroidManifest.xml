@@ -3,6 +3,9 @@
     package="edu.hawaii.ics414.icalendar"
     android:versionCode="1"
     android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -57,6 +60,10 @@
         <activity
             android:name="edu.hawaii.ics414.icalendar.CreateEventActivity"
             android:label="@string/title_activity_create_event" >
+        </activity>
+        <activity
+            android:name="edu.hawaii.ics414.icalendar.LoadActivity"
+            android:label="@string/title_activity_load_event" >
         </activity>
     </application>
 
